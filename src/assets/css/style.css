@@ -1,0 +1,117 @@
+.book-form {
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.book-form h1 {
+  text-align: center;
+}
+
+.book-form input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.book-form button {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.book-card {
+  padding: 1rem;
+}
+
+.book-card span {
+  font-style: italic;
+  color: #777;
+}
+
+.book img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.book h3,
+.book h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.book h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.book h4 {
+  font-size: 1rem;
+}
+
+.book p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.book-container .book {
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.login-form h1 {
+  text-align: center;
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+@media (max-width: 576px) {
+  .login-form {
+    margin-top: 20px;
+  }
+
+  .book-form {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .book-container {
+    flex-direction: column;
+  }
+
+  .book-container .book {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .book-card {
+    width: 100%;
+    margin-right: 0;
+  }
+}
